@@ -1,0 +1,30 @@
+.sidebar-menu{
+    max-width: 268px;
+    width: 100%;
+    list-style: none;
+    padding: 0;
+    text-align: left;
+    margin: 0;
+    margin-bottom: 128px;
+    &__item{
+        margin-top: 30px;
+        cursor: pointer;
+        position: relative;
+    }
+    &__item::after{
+        content: "";
+        position: absolute;
+        background-image: url('/src/assets/images/arrow_sidebar.svg');
+        width: 15px;
+        height: 15px;
+        right: 0;
+        top: 4px;
+    }
+    &__item:first-child{
+        margin-top: 0;
+    }
+    &__item a{
+        color: #000000;
+        font-size: 16px;
+    }
+}
