@@ -1,11 +1,15 @@
 import ProductList from "../components/ProductList/ProductList";
 import SidebarMenu from "../components/SidebarMenu/SidebarMenu";
+import AppBanner from "../components/AppBanner/AppBanner";
+import './Home.scss'
 
 function Home(){
     return(
         <>
-        <h1>Головна сторінка</h1>
+        <div className="home-section">
         <SidebarMenu />
+        <AppBanner />
+        </div>
         <ProductList />
         </>
     )

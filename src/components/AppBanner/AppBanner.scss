@@ -1,0 +1,22 @@
+.app-banner{
+    height: 332px;
+    background-color: #389423;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    &__content-box{
+        padding: 64px 0 65px 70px;
+        text-align: left;
+    }
+    &__title{
+        font-size: 32px;
+        color: #FFFFFF;
+        margin-bottom: 19px;
+    }
+    &__content{
+        font-size: 20px;
+        color: #fff;
+        margin-bottom: 22px;
+    }
+}

@@ -14,3 +14,4 @@ function AppStoreLinks(){
         </div>
     )
 }
+export default AppStoreLinks;
