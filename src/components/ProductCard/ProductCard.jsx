@@ -19,7 +19,9 @@ return(
            )
            }
         </div>
+        <div className="product-card__container-img">
         <img className="product-card__img" src={product.image} alt={product.name}/>
+        </div>
         <h3 className="product-card__name">{product.name}</h3>
         <div className="product-card__box">
             <div className="product-card__rating-reviewsCount">

@@ -1,0 +1,24 @@
+.tabs-section{
+    &__container{
+    display: flex;
+    justify-content: space-between;
+    gap: 4px;
+    margin-bottom: 35px;
+    }
+    &__btn{
+        margin-right: 56px;
+        border: none;
+        background-color: #F8F9FA;
+        color: #808080;
+        cursor: pointer;
+    }
+    &__btn-active{
+        color: #389423;
+        text-decoration: underline;
+        cursor: pointer;
+    }
+    &__content{
+        display: flex;
+        gap: 20px;
+    }
+}
