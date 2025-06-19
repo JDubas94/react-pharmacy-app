@@ -1,6 +1,7 @@
 import { useState, useMemo } from "react";
 import products from "../../data/products";
 import ProductList from "../ProductList/ProductList"
+import AllOffersLink from "../AllOffersLink/AllOffersLink"
 import './TabsSection.scss';
 
 
@@ -27,7 +28,7 @@ function TabsSection(){
             {tab}</button>
         ))}
         </div>
-        <a className="all-offers-link" href="/offers">Всі пропозиції</a>
+        <AllOffersLink />
     </div>
      <div className="tabs-section__content">
         <ProductList products={tabData[activeTab]} />
